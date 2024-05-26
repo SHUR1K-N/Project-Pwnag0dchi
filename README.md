@@ -41,14 +41,14 @@ I'll keep updating this as much as possible, and you can share suggestions or po
   	* Internet connection/sharing status
   	* Current interface's IP address (helps with connecting via SSH / web UI)
 * More stuff I may be forgetting
-<img src="https://github.com/SHUR1K-N/Project-Pwang0dchi/assets/42811989/50c201f4-df87-4a2f-8aea-c4fd8be42e1e" width="700">
+<img src="https://github.com/SHUR1K-N/Project-Pwnag0dchi/assets/42811989/f375ba99-673f-4b7c-b8ad-d2f8dd662270" width="700">
 
 # Parts To Get
 * [Waveshare 2.13 inch e-Ink display](https://www.waveshare.com/2.13inch-e-paper-hat.htm)
 	* Versions 3 & 4 work best. This is denoted by a small circular sticker on the board ([like this](https://www.reddit.com/r/pwnagotchi/comments/dkwl0f/visual_differences_between_version_2_and_version/))
  	* Ignore the "Rev2.1" that's printed on the board; that has nothing to do with the version
   	* Do NOT get the tri-color variant with black/white/red (variant "B"). Get only the black/white version. Both look pretty much identical and cost the same, so it's easy to purchase the wrong one
-<img src="https://github.com/SHUR1K-N/Project-Pwang0dchi/assets/42811989/a346403f-467c-4acf-aca2-381c483785c6" width="800">
+<img src="https://github.com/SHUR1K-N/Project-Pwnag0dchi/assets/42811989/94a1b13c-7370-4581-90b6-8bf47cfec131" width="800">
 
 * [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) (soldering required)
 * OR [Raspberry Pi Zero WH](https://www.adafruit.com/product/3708) (no soldering required)
