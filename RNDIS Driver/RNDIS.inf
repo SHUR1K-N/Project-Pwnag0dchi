@@ -1,0 +1,107 @@
+;
+; FIH Device Driver
+;
+; This INF works for Windows XP SP2, Windows XP x64,
+; and Windows Vista x86 and x64.
+; This INF will work with Windows XP, and Windows XP SP1
+; after applying specific hotfixes.
+;
+
+[Version]
+Signature	= "$Windows NT$"
+Class		= Net
+ClassGUID	= {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider	= %Provider%
+DriverVer	= 01/13/2010,1.0.0.0
+CatalogFile	= RNDIS.cat
+
+[Manufacturer]
+%Provider%	= RndisDevices,NTx86,NTamd64,NTia64
+
+; Decoration for x86 architecture
+[RndisDevices.NTx86]
+%RndisDevice.COMM%	= RNDIS.NT.5.1, USB\VID_0525&PID_A4A2
+%RndisDevice.ACER%	= RNDIS.NT.5.1, USB\VID_0502&PID_3210
+
+; Decoration for x64 architecture
+[RndisDevices.NTamd64]
+%RndisDevice.COMM%	= RNDIS.NT.5.1, USB\VID_0525&PID_A4A2
+%RndisDevice.ACER%	= RNDIS.NT.5.1, USB\VID_0502&PID_3210
+
+; Decoration for ia64 architecture
+[RndisDevices.NTia64]
+%RndisDevice.COMM%	= RNDIS.NT.5.1, USB\VID_0525&PID_A4A2
+%RndisDevice.ACER%	= RNDIS.NT.5.1, USB\VID_0502&PID_3210
+
+;@@@ This is the common setting for setup
+[ControlFlags]
+ExcludeFromSelect = *
+
+; DDInstall section
+; References the in-build Netrndis.inf
+[RNDIS.NT.5.1]
+Characteristics = 0x84   ; NCF_PHYSICAL + NCF_HAS_UI
+BusType         = 15
+DriverVer       = 01/13/2010,1.0.0.0
+AddReg          = Rndis_AddReg_Vista
+
+[RNDIS.NT.5.1.Services]
+AddService      = USB_RNDIS, 2, RNDIS_ServiceInst_Vista, RNDIS_EventLog
+
+; Optional registry settings. You can modify as needed.
+[RNDIS_AddReg_Vista]
+HKR, Ndi,               Service,        0, "USB_RNDIS"
+HKR, Ndi\Interfaces,    UpperRange,     0, "ndis5"
+HKR, Ndi\Interfaces,    LowerRange,     0, "ethernet"
+HKR, NDI\params\NetworkAddress, ParamDesc,  0, %NetworkAddress%
+HKR, NDI\params\NetworkAddress, type,       0, "edit"
+HKR, NDI\params\NetworkAddress, LimitText,  0, "12"
+HKR, NDI\params\NetworkAddress, UpperCase,  0, "1"
+HKR, NDI\params\NetworkAddress, default,    0, " "
+HKR, NDI\params\NetworkAddress, optional,   0, "1"
+
+
+[RNDIS_ServiceInst_Vista]
+DisplayName     = %ServiceDisplayName%
+ServiceType     = 1
+StartType       = 3
+ErrorControl    = 1
+ServiceBinary   = %12%\usb8023.sys   
+LoadOrderGroup  = NDIS
+AddReg          = RNDIS_WMI_AddReg_Vista
+
+
+[RNDIS_EventLog]
+AddReg = RNDIS_EventLog_AddReg
+
+[RNDIS_EventLog_AddReg]
+HKR, , EventMessageFile, 0x00020000, "%%SystemRoot%%\System32\netevent.dll"
+HKR, , TypesSupported,   0x00010001, 7
+
+[RNDIS_WMI_AddReg_Vista]
+HKR, , MofImagePath, 0x00020000, "System32\drivers\rndismp.sys"
+
+; No sys copyfiles - the sys files are already in-build
+; (part of the operating system).
+
+[SourceDisksNames]
+1 = %SourceDisk%,,1
+
+[SourceDisksFiles]
+usb8023m.sys = 1
+rndismpm.sys = 1
+usb8023w.sys = 1
+rndismpw.sys = 1
+usb8023k.sys = 1
+rndismpk.sys = 1
+
+
+; Modify these strings for your device as needed.
+[Strings]
+Provider		= "Acer Incorporated."
+ServiceDisplayName	= "USB Remote NDIS Network Device Driver"
+NetworkAddress		= "Network Address"
+SourceDisk		= "Ethernet/RNDIS Gadget Driver Install Disk"
+
+RndisDevice.COMM	= "USB Ethernet/RNDIS Gadget"
+RndisDevice.ACER	= "Acer Netchip RNDIS/Ethernet Gadget"
