@@ -102,7 +102,7 @@ https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-
 
 # Local Handshake Cracking (within the Pwnagotchi itself, without Internet / WPA-sec)
 The `better_quickdic` plugin is responsible for this. Just add your small custom wordlists to `/home/pi/wordlists/`, and a dictionary attack will be performed using all the wordlists in this directory as soon as a valid handshake is captured
-> NOTE: Disable / Remove the `aircrackonly` & `hashie` / `hashieclean` plugin for this to be most effective. I've found in some of my testing that these plugins sometimes get rid of even valid handshakes before `better_quickdic` could start cracking them
+> NOTE: Disable / Remove the `aircrackonly` & `hashie` / `hashieclean` plugins for this to be most effective. I've found in some of my testing that these plugins sometimes get rid of even valid handshakes before `better_quickdic` could start cracking them
 >
 > NOTE: If a handshake is cracked using this plugin, it will NOT show on the Pwnagotchi screen (even with `display-password` enabled). You'll have to manually check the `/home/pi/handshakes` directory for any files that end in `.pcap.cracked`. If you have tons of handshakes there, you can use `ls /home/pi/handshakes/ | grep crack` to quickly filter out only the ones cracked
 
