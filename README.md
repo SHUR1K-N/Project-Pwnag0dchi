@@ -80,6 +80,7 @@ https://youtu.be/7nj5Euo5Bng?t=135
 
 ## Initial settings to be changed
 Via web UI: Plugins > web-cfg
+
 Via `/etc/pwnagotchi/config.toml`
 
 Then make the following additions / changes:
