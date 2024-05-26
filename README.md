@@ -78,6 +78,13 @@ https://youtu.be/7nj5Euo5Bng?t=135
 10. Reconnect Pwnagotchi (data port, not power)
 11. Confirm Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
 
+# Installing Plugins & Applying Configurations
+1. Download all plugins from the "Plugins" directory here
+2. Copy all plugins to `/usr/local/share/pwnagotchi/custom-plugins/`
+3. Download all files from the "Configurations" directory here
+4. Coopy all files to `/etc/pwnagotchi/`
+5. Apply all changes using `sudo systemctl restart pwnagotchi.service`
+
 ## Initial settings to be changed
 Via web UI: Plugins > web-cfg
 
@@ -89,13 +96,6 @@ Then make the following additions / changes:
 2. `main.whitelist.#0` & `main.plugins.grid.exclude` should be the SSID of your home Wi-Fi network, so your Pwnagotchi does not attack it (example: Shuriken-WiFi_2.4GHz)
 3. `main.plugins.wpa-sec.api_key` should be your WPA-sec API key (go [here first](https://wpa-sec.stanev.org) and click on "Get key" to get your free API key e-mailed to you
 	> NOTE: When copy-pasting the API key to `main.plugins.wpa-sec.api_key`, make sure there are no spaces at the beginning or end of the API key
-
-# Installing Plugins & Applying Configurations
-1. Download all plugins from the "Plugins" directory here
-2. Copy all plugins to `/usr/local/share/pwnagotchi/custom-plugins/`
-3. Download all files from the "Configurations" directory here
-4. Coopy all files to `/etc/pwnagotchi/`
-5. Apply all changes using `sudo systemctl restart pwnagotchi.service`
 
 # Massive Plugins List (names, descriptions, links, etc.)
 https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-w_A
