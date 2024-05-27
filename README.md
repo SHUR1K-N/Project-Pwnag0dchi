@@ -5,12 +5,12 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 
 ## Table of Contents
 - [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
+- [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#installing-plugins--applying-configurations)
+ 	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
 - [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
 - [Initial Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-setup)
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
-- [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#installing-plugins--applying-configurations)
- 	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
 - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
 - [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
 - [Bluetooth-Tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-tutorial-short--crisp)
@@ -42,6 +42,25 @@ I'll keep updating this as much as possible, and you can share suggestions or po
   	* Current interface's IP address (helps with connecting via SSH / web UI)
 * More stuff I may be forgetting
 <img src="https://github.com/SHUR1K-N/Project-Pwnag0dchi/assets/42811989/f375ba99-673f-4b7c-b8ad-d2f8dd662270" width="700">
+
+# Installing Plugins & Applying Configurations
+1. Download all plugins from the "Plugins" directory here
+2. Copy all plugins to `/usr/local/share/pwnagotchi/custom-plugins/`
+3. Download all files from the "Configurations" directory here
+4. Coopy all files to `/etc/pwnagotchi/`
+5. Apply all changes using `sudo systemctl restart pwnagotchi.service`
+
+## Initial settings to be changed
+Via web UI: Plugins > web-cfg
+
+Via `/etc/pwnagotchi/config.toml`
+
+Then make the following additions / changes:
+
+1. `main.name` should be whatever you'd like to name your Pwnagotchi (example: Pwnag0dchi)
+2. `main.whitelist.#0` & `main.plugins.grid.exclude` should be the SSID of your home Wi-Fi network, so your Pwnagotchi does not attack it (example: Shuriken-WiFi_2.4GHz)
+3. `main.plugins.wpa-sec.api_key` should be your WPA-sec API key (go [here first](https://wpa-sec.stanev.org) and click on "Get key" to get your free API key e-mailed to you
+	> NOTE: When copy-pasting the API key to `main.plugins.wpa-sec.api_key`, make sure there are no spaces at the beginning or end of the API key
 
 # Parts To Get
 * [Waveshare 2.13 inch e-Ink display](https://www.waveshare.com/2.13inch-e-paper-hat.htm)
@@ -77,25 +96,6 @@ https://youtu.be/7nj5Euo5Bng?t=135
 9. Right-click your main ethernet > Properties > "Sharing" tab > check both boxes + select sharing for your Pwnagotchi's RNDIS > OK
 10. Reconnect Pwnagotchi (data port, not power)
 11. Confirm Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
-
-# Installing Plugins & Applying Configurations
-1. Download all plugins from the "Plugins" directory here
-2. Copy all plugins to `/usr/local/share/pwnagotchi/custom-plugins/`
-3. Download all files from the "Configurations" directory here
-4. Coopy all files to `/etc/pwnagotchi/`
-5. Apply all changes using `sudo systemctl restart pwnagotchi.service`
-
-## Initial settings to be changed
-Via web UI: Plugins > web-cfg
-
-Via `/etc/pwnagotchi/config.toml`
-
-Then make the following additions / changes:
-
-1. `main.name` should be whatever you'd like to name your Pwnagotchi (example: Pwnag0dchi)
-2. `main.whitelist.#0` & `main.plugins.grid.exclude` should be the SSID of your home Wi-Fi network, so your Pwnagotchi does not attack it (example: Shuriken-WiFi_2.4GHz)
-3. `main.plugins.wpa-sec.api_key` should be your WPA-sec API key (go [here first](https://wpa-sec.stanev.org) and click on "Get key" to get your free API key e-mailed to you
-	> NOTE: When copy-pasting the API key to `main.plugins.wpa-sec.api_key`, make sure there are no spaces at the beginning or end of the API key
 
 # Massive Plugins List (names, descriptions, links, etc.)
 https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-w_A
