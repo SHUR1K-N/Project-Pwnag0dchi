@@ -32,11 +32,11 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	* Fully passive (no attacks, just passive handshake capture)
 * Downloadable handshakes from web UI (fixed)
 * UI elements tweaked AF (positions, sizes, fonts, etc.)
-* Plugin modifications (for cosmetic purposes, decluttering, improved functionality, and bug-fixes)
+* Plugin modifications (for cosmetic purposes, decluttering, and slightly improved functionality (maybe))
 * Added information to the screen:
 	* Latest cracked handshake in plain-text (as per WPA-sec)
  	* Level & XP bar (collect handshakes to gain XP and level up)
-* Enabled attacks (association, deauthentication, or both, or none)
+        * Enabled attacks (association, deauthentication, or both, or none)
  	* Hardware monitoring (current memory usage, CPU usage, CPU frequency, and temperature)
   	* Internet connection/sharing status
   	* Current interface's IP address (helps with connecting via SSH / web UI)
