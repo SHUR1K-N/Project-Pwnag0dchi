@@ -64,6 +64,10 @@ Then make the following additions / changes:
 3. `main.plugins.wpa-sec.api_key` should be your WPA-sec API key (go [here first](https://wpa-sec.stanev.org) and click on "Get key" to get your free API key e-mailed to you
 	> NOTE: When copy-pasting the API key to `main.plugins.wpa-sec.api_key`, make sure there are no spaces at the beginning or end of the API key
 
+---
+---
+---
+
 # Pwnagotchi Noob Guide
 ## Parts To Get
 * [Waveshare 2.13 inch e-Ink display](https://www.waveshare.com/2.13inch-e-paper-hat.htm)
