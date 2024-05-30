@@ -1,4 +1,4 @@
-main.name = "Shurikengotcha"
+main.name = "Pwnag0dchi"
 main.lang = "en"
 main.whitelist = [
  "yourHomeSSIDHere",
@@ -200,8 +200,8 @@ ui.faces.position_y = 34
 
 ui.web.enabled = true
 ui.web.address = "::"
-ui.web.username = "Shurikengotcha"
-ui.web.password = "RaspothePie"
+ui.web.username = "changeme"
+ui.web.password = "changeme"
 ui.web.origin = ""
 ui.web.port = 8080
 ui.web.on_frame = ""
