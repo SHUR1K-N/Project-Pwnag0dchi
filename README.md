@@ -20,6 +20,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 - [Using External Wi-Fi Adapters](https://github.com/SHUR1K-N/Project-Pwnag0dchi#using-external-wi-fi-adapters)
 	- [Enabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#enabling-external-wi-fi-adapter)
 	- [Disabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#disabling-external-wi-fi-adapter)
+---
 - [Troubleshooting](https://github.com/SHUR1K-N/Project-Pwnag0dchi#troubleshooting)
 	- [Internet Sharing Not Working](https://github.com/SHUR1K-N/Project-Pwnag0dchi#internet-sharing-not-working-or-was-previously-working)
 	- [Deauths even when "enable_deauth" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-deauths-even-when-the-enable_deauth-plugin-is-turned-off)
@@ -142,6 +143,10 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 2. comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
 3. uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
 4. Reboot Pwnagotchi with Wi-Fi adapter *disconnected* (data port, not power)
+
+---
+---
+---
 
 # Troubleshooting
 ## Internet Sharing Not Working (or was previously working)
