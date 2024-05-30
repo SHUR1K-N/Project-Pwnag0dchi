@@ -7,7 +7,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 - [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
 - [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#installing-plugins--applying-configurations)
  	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
-- [Pwnagotchi Noob Guide]()
+- [Pwnagotchi Noob Guide](https://github.com/SHUR1K-N/Project-Pwnag0dchi#pwnagotchi-noob-guide)
 	- [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
