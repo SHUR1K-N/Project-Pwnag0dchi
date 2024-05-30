@@ -32,6 +32,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	* Fully passive (no attacks, just passive handshake capture)
 * Downloadable handshakes from web UI (fixed)
 * UI elements tweaked AF (positions, sizes, fonts, etc.)
+	* Space added to "CH" value to accomodate 5GHz channels without overlap
 * Plugin modifications (for cosmetic purposes, decluttering, and slightly improved functionality (maybe))
 * Added information to the screen:
 	* Latest cracked handshake in plain-text (as per WPA-sec)
@@ -47,7 +48,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 1. Download all plugins from the "Plugins" directory here
 2. Copy all plugins to `/usr/local/share/pwnagotchi/custom-plugins/`
 3. Download all files from the "Configurations" directory here
-4. Coopy all files to `/etc/pwnagotchi/`
+4. Copy all files to `/etc/pwnagotchi/`
 5. Apply all changes using `sudo systemctl restart pwnagotchi.service`
 
 ## Initial settings to be changed
@@ -62,7 +63,8 @@ Then make the following additions / changes:
 3. `main.plugins.wpa-sec.api_key` should be your WPA-sec API key (go [here first](https://wpa-sec.stanev.org) and click on "Get key" to get your free API key e-mailed to you
 	> NOTE: When copy-pasting the API key to `main.plugins.wpa-sec.api_key`, make sure there are no spaces at the beginning or end of the API key
 
-# Parts To Get
+# Pwnagotchi Noob Guide
+## Parts To Get
 * [Waveshare 2.13 inch e-Ink display](https://www.waveshare.com/2.13inch-e-paper-hat.htm)
 	* Versions 3 & 4 work best. This is denoted by a small circular sticker on the board ([like this](https://www.reddit.com/r/pwnagotchi/comments/dkwl0f/visual_differences_between_version_2_and_version/))
  	* Ignore the "Rev2.1" that's printed on the board; that has nothing to do with the version
