@@ -12,6 +12,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	- [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
+---
 - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
 - [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
 - [Bluetooth-Tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-tutorial-short--crisp)
@@ -102,6 +103,10 @@ https://youtu.be/7nj5Euo5Bng?t=135
 9. Right-click your main ethernet > Properties > "Sharing" tab > check both boxes + select sharing for your Pwnagotchi's RNDIS > OK
 10. Reconnect Pwnagotchi (data port, not power)
 11. Confirm Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
+
+---
+---
+---
 
 # Massive Plugins List (names, descriptions, links, etc.)
 https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-w_A
