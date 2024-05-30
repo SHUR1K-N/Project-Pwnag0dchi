@@ -11,6 +11,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 ---
 - [Pwnagotchi Noob Guide](https://github.com/SHUR1K-N/Project-Pwnag0dchi#pwnagotchi-noob-guide)
 	- [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
+	- [Installation]()
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
 ---
@@ -88,6 +89,20 @@ Then make the following additions / changes:
  	* The `WH` variant may be a little more difficult to find than `W`
 
  * Micro-SD card — 16GBs best, must be "UHS-I"
+
+## Installation
+0. Attach the Waveshare display to the Pi Zero (hardware part done!)
+1. Download a Pwnagotchi image file of your choice (jayofelony, etc.)
+2. Download / Install [Balena Etcher](https://etcher.balena.io/#download-etcher)
+3. Insert your Pwnagotchi's micro-SD into a card-reader, and into your computer
+4. Open Balena Etcher
+5. Select the downloaded Pwnagotchi image file
+6. Also carefully select the inserted micro-SD card
+7. Flash!
+8. After flashing completes, insert the micro-SD card into your Pwnagotchi and power it on
+9. **On the first boot, your Pwangotchi will need some time to initialize (anywhere from 2 to even 30 minutes). During this initialization period, do not panic if you see nothing on the display or a `"Generating keys, do not turn off..."` message. Once this process is complete, your Pwangotchi will restart by itself and be ready to use**
+    > NOTE: This only applies to the first boot. You will not have to wait for more than ~2-3 minutes for any future boot-ups
+11. IT'S ALIIIIIVE!
 
 ## Getting your Pwnagotchi to be accessible via SSH / web UI
 https://youtu.be/7nj5Euo5Bng?t=135
