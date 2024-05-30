@@ -6,7 +6,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 ## Table of Contents
 - [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
 - [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#installing-plugins--applying-configurations)
-	- [Login Credentials (Web UI)]() 
+	- [Login Credentials (Web UI)](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#login-credentials-web-ui) 
  	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
 ---
 - [Pwnagotchi Noob Guide](https://github.com/SHUR1K-N/Project-Pwnag0dchi#pwnagotchi-noob-guide)
@@ -54,13 +54,13 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 4. Copy all files to `/etc/pwnagotchi/`
 5. Apply all changes using `sudo systemctl restart pwnagotchi.service`
 
+## Login Credentials (Web UI)
+`changeme:changeme`
+
 ## Initial settings to be changed
 Via web UI: Plugins > web-cfg
 
 Via `/etc/pwnagotchi/config.toml`
-
-## Login Credentials (Web UI)
-`changeme:changeme`
 
 Then make the following additions / changes:
 
