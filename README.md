@@ -7,8 +7,8 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 - [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
 - [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#installing-plugins--applying-configurations)
  	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
-- [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
-- [Initial Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-setup)
+- [Pwnagotchi Noob Guide]()
+	- [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
 - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
@@ -78,7 +78,6 @@ Then make the following additions / changes:
 
  * Micro-SD card — 16GBs best, must be "UHS-I"
 
-# Initial Setup
 ## Getting your Pwnagotchi to be accessible via SSH / web UI
 https://youtu.be/7nj5Euo5Bng?t=135
 > NOTE: **Follow only from 2:15 to 4:31**
