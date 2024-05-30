@@ -1,0 +1,11 @@
+{
+    "VSS.aps.label": "APs",
+    "VSS.status.font": "Small",
+    "VSS.Lv.label_font": "Small",
+    "VSS.Lv.text_font": "Small",
+    "VSS.Exp.label_font": "Small",
+    "VSS.Exp.text_font": "Small",
+    "VSS.Exp.label_spacing": 1,
+    "VSS.Lv.label_spacing": 3,
+    "VSS.aps.xy": "36,0"
+}
