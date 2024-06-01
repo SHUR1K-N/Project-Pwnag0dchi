@@ -50,11 +50,9 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 <img src="https://github.com/SHUR1K-N/Project-Pwnag0dchi/assets/42811989/f375ba99-673f-4b7c-b8ad-d2f8dd662270" width="700">
 
 # Installing Plugins & Applying Configurations
-1. Download all plugins from the "Plugins" directory here
-2. Copy all plugins to `/usr/local/share/pwnagotchi/custom-plugins/`
-3. Download all files from the "Configurations" directory here
-4. Copy all files to `/etc/pwnagotchi/`
-5. Apply all changes using `sudo systemctl restart pwnagotchi.service`
+1. Copy all files from ″Plugins″ to `/usr/local/share/pwnagotchi/custom-plugins/`
+2. Copy all files from ″Configurations″ to `/etc/pwnagotchi/`
+3. Apply all changes using `sudo systemctl restart pwnagotchi.service`
 
 ## Login Credentials (Web UI)
 `changeme:changeme`
