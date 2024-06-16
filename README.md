@@ -106,11 +106,11 @@ Then make the following additions / changes:
 https://youtu.be/7nj5Euo5Bng?t=135
 > NOTE: **Follow only from 2:15 to 4:31**
 > 
-> NOTE: If you need to install RNDIS drivers manually, download it from this GitHub page ("RNDIS" directory)
+> NOTE: If you need to install RNDIS drivers manually, download it from this GitHub repo ("RNDIS Driver" directory)
 
 ## Setting Up Internet-Sharing (Internet access for Pwnagotchi)
 0. Connect your Pwnagotchi (data port, not power)
-1. Download `win_connection_share.ps1` from this GitHub page ("Internet Sharing" directory)
+1. Download `win_connection_share.ps1` from this GitHub repo ("Internet Sharing" directory)
 2. Open PowerShell as an administrator (right-click > "Run as administrator")
 3. `cd .\Downloads\`
 4. `.\win_connection_share.ps1 -SetPwnagotchiSubnet`
