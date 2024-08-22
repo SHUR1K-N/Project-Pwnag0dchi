@@ -5,6 +5,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 
 ## Table of Contents
 - [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
+- [Feature Showcase & Tutorial Video](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
 - [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#installing-plugins--applying-configurations)
 	- [Login Credentials (Web UI)](https://github.com/SHUR1K-N/Project-Pwnag0dchi/blob/main/README.md#login-credentials-web-ui) 
  	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
@@ -48,6 +49,10 @@ I'll keep updating this as much as possible, and you can share suggestions or po
   	* Current interface's IP address (helps with connecting via SSH / web UI)
 * More stuff I may be forgetting
 <img src="https://github.com/SHUR1K-N/Project-Pwnag0dchi/assets/42811989/f375ba99-673f-4b7c-b8ad-d2f8dd662270" width="700">
+
+## Sick Feature Showcase & Tutorial Video
+
+Coming in 36 hours
 
 # Installing Plugins & Applying Configurations
 1. Copy all files from ″Plugins″ to `/usr/local/share/pwnagotchi/custom-plugins/`
