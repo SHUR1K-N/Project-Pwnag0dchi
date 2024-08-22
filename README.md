@@ -5,7 +5,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 
 ## Table of Contents
 - [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
-- [Feature Showcase & Tutorial Video](https://github.com/SHUR1K-N/Project-Pwnag0dchi#sick-feature-showcase--tutorial-video)
+- [Showcase & Tutorial Video](https://github.com/SHUR1K-N/Project-Pwnag0dchi#sick-feature-showcase--tutorial-video)
 - [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi#installing-plugins--applying-configurations)
 	- [Login Credentials (Web UI)](https://github.com/SHUR1K-N/Project-Pwnag0dchi#login-credentials-web-ui) 
  	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
