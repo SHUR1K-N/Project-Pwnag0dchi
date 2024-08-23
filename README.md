@@ -52,7 +52,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 
 ## Sick Feature Showcase & Tutorial Video
 
-Coming in 36 hours
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rNAYWvSMP6o/maxresdefault.jpg)](https://www.youtube.com/watch?v=rNAYWvSMP6o)
 
 # Installing Plugins & Applying Configurations
 1. Copy all files from ″Plugins″ to `/usr/local/share/pwnagotchi/custom-plugins/`
