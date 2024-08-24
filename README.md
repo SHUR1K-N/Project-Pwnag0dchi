@@ -55,15 +55,15 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rNAYWvSMP6o/maxresdefault.jpg)](https://www.youtube.com/watch?v=rNAYWvSMP6o)
 
 # Installing Plugins & Applying Configurations
-1. Copy all files from ″Plugins″ to `/usr/local/share/pwnagotchi/custom-plugins/`
-2. Copy all files from ″Configurations″ to `/etc/pwnagotchi/`
-3. Apply all changes using `sudo systemctl restart pwnagotchi.service`
+1. Copy all files from ″Plugins/″ to `/usr/local/share/pwnagotchi/custom-plugins/`
+2. Copy all files from ″Configurations/″ to `/etc/pwnagotchi/`
+3. Apply all changes by restating the Pwnagotchi service using `sudo systemctl restart pwnagotchi.service`
 
 ## Login Credentials (Web UI)
 `changeme:changeme`
 
 ## Initial settings to be changed
-Via web UI: Plugins > web-cfg
+Via web UI: Plugins > webcfg
 
 Via `/etc/pwnagotchi/config.toml`
 
