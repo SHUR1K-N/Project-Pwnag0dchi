@@ -55,9 +55,9 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rNAYWvSMP6o/maxresdefault.jpg)](https://www.youtube.com/watch?v=rNAYWvSMP6o)
 
 # Installing Plugins & Applying Configurations
-1. Copy all files from ″Plugins/″ to `/usr/local/share/pwnagotchi/custom-plugins/`
-2. Copy all files from ″Configurations/″ to `/etc/pwnagotchi/`
-3. Apply all changes by restating the Pwnagotchi service using `sudo systemctl restart pwnagotchi.service`
+1. Copy the files from the ″Plugins″ directory of this GitHub repo to `/usr/local/share/pwnagotchi/custom-plugins/`
+2. Copy the files from the ″Configurations″ directory of this GitHub repo to `/etc/pwnagotchi/`
+3. Apply all changes by restarting your Pwnagotchi
 
 ## Login Credentials (Web UI)
 `changeme:changeme`
@@ -73,6 +73,7 @@ Then make the following additions / changes:
 2. `main.whitelist.#0` & `main.plugins.grid.exclude` should be the SSID of your home Wi-Fi network, so your Pwnagotchi does not attack it (example: Shuriken-WiFi_2.4GHz)
 3. `main.plugins.wpa-sec.api_key` should be your WPA-sec API key (go [here first](https://wpa-sec.stanev.org) and click on "Get key" to get your free API key e-mailed to you
 	> NOTE: When copy-pasting the API key to `main.plugins.wpa-sec.api_key`, make sure there are no spaces at the beginning or end of the API key
+4. Restart the Pwnagotchi service to apply changes. On the web UI, this can be done by clicking ″Save and Restart″ at the top of webcfg. Via SSH, this can be done using `sudo systemctl restart pwnagotchi.service`
 
 ---
 ---
