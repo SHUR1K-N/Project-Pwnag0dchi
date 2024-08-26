@@ -14,6 +14,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	- [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
 	- [Installation](https://github.com/SHUR1K-N/Project-Pwnag0dchi#installation)
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
+ 	- [FTP Access Setup]()
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
 ---
 - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
@@ -115,6 +116,23 @@ https://youtu.be/7nj5Euo5Bng?t=135
 > NOTE: If you need to install RNDIS drivers manually, download it from this GitHub repo ("RNDIS Driver" directory)
 
 `ssh pi@10.0.0.2` or `ssh pi@10.002` for short (password = `raspberry`)
+
+## Getting your Pwnagotchi to be accessible via FTP
+To FTP into your Pwnagotchi as a root user, you'll first need to initialize the root user account and also enable root FTP logins:
+
+0. SSH into your Pwny as the pi user (as usual)
+1. `sudo passwd root`
+2. Enter *pi* user's password (raspberry)
+3. Enter a new password for *root* user
+4. Save and exit. You'll now have a root user. Time to enable root FTP logins
+5. `sudo nano /etc/ssh/sshd_config`
+   > NOTE: `sshd_config`, not `ssh_config`
+6. Change the `PermitRootLogin prohibit-password` line to `PermitRootLogin yes` and uncomment the line if it's commented (remove the `#` from the start of the line)
+7. Save and exit
+8. `service ssh restart`
+
+Tutorial: https://youtube.com/watch?v=6f7PB3bgaxQ
+
 
 ## Setting Up Internet-Sharing (Internet access for Pwnagotchi)
 0. Connect your Pwnagotchi (data port, not power)
