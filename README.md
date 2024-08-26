@@ -14,7 +14,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	- [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
 	- [Installation](https://github.com/SHUR1K-N/Project-Pwnag0dchi#installation)
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
- 	- [FTP Access Setup]()
+ 	- [FTP Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ftp)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
 ---
 - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
@@ -110,7 +110,7 @@ Then make the following additions / changes:
 11. IT'S ALIIIIIVE!
 
 ## Getting your Pwnagotchi to be accessible via SSH / web UI
-https://youtu.be/7nj5Euo5Bng?t=135
+Tutorial: https://youtu.be/7nj5Euo5Bng?t=135
 > NOTE: **Follow only from 2:15 to 4:31**
 > 
 > NOTE: If you need to install RNDIS drivers manually, download it from this GitHub repo ("RNDIS Driver" directory)
@@ -162,8 +162,8 @@ The `better_quickdic` plugin is responsible for this. Just add your small custom
 >
 > NOTE: If a handshake is cracked using this plugin, it will NOT show on the Pwnagotchi screen (even with `display-password` enabled). You'll have to manually check the `/home/pi/handshakes` directory for any files that end in `.pcap.cracked`. If you have tons of handshakes there, you can use `ls /home/pi/handshakes/ | grep crack` to quickly filter out only the ones cracked
 
-# Bluetooth-Tethering Tutorial (short & crisp)
-https://www.youtube.com/watch?v=cnmrKCBzDRU
+# Bluetooth-Tethering (short & crisp)
+Tutorial: https://www.youtube.com/watch?v=cnmrKCBzDRU
 
 # Using External Wi-Fi Adapters
 You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant increase in range, or for 5GHz support, or both.
