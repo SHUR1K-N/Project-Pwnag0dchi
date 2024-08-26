@@ -19,7 +19,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 ---
 - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
 - [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
-- [Bluetooth-Tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-tutorial-short--crisp)
+- [Bluetooth-Tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp)
 - [Using External Wi-Fi Adapters](https://github.com/SHUR1K-N/Project-Pwnag0dchi#using-external-wi-fi-adapters)
 	- [Enabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#enabling-external-wi-fi-adapter)
 	- [Disabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#disabling-external-wi-fi-adapter)
