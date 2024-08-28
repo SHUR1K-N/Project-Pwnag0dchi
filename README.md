@@ -26,6 +26,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 ---
 - [Troubleshooting](https://github.com/SHUR1K-N/Project-Pwnag0dchi#troubleshooting)
 	- [Internet Sharing Not Working](https://github.com/SHUR1K-N/Project-Pwnag0dchi#internet-sharing-not-working-or-was-previously-working)
+ 	- [Can't connect 'gotchi to computer since switching to external adapter]()
 	- [Deauths even when "enable_deauth" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-deauths-even-when-the-enable_deauth-plugin-is-turned-off)
 	- [Associations even when "enable_assoc" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-does-associations-even-when-the-enable_assoc-plugin-is-turned-off)
  	- [I got the tri-color variant of the Waveshare screen, and it sucks. Now what?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-got-the-tri-color-variant-of-the-waveshare-screen-and-it-sucks-now-what)
@@ -173,12 +174,14 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 > TIP: First, try the below steps and see if your adapter works with the Pwnagotchi (don't forget to reboot). If not, install the drivers manually.
 
 ## Enabling External Wi-Fi Adapter
+0. SSH into your Pwnagotchi
 1. `sudo nano /boot/config.txt`
 2. uncomment `dtoverlay=disable-wifi` (remove the `#` from the start of the line)
 3. comment out `dtoverlay=dwc2` (add a `#` at the start of the line)
 4. Reboot Pwnagotchi with Wi-Fi adapter *connected* (data port, not power)
 
 ## Disabling External Wi-Fi Adapter
+0. SSH into your Pwnagotchi
 1. `sudo nano /boot/config.txt`
 2. comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
 3. uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
@@ -197,6 +200,17 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 5. Right-click your main ethernet > Properties > "Sharing" tab > check both boxes + select sharing for your Pwnagotchi's RNDIS > OK
 6. Reconnect Pwnagotchi (data port, not power)
 7. Test Internet connectivity after Pwnagotchi initializes completely with `ping google.com`
+
+## Cannot connect my 'gotchi to my computer since switching to external adapter
+You'll need to disable the external Wi-Fi adapter to connect your Pwnagotchi to your computer via the data port.
+
+1. Connect Pwnagotchi via Bluetooth tethering (power port, not data)
+2. SSH into your Pwnagotchi
+3. `sudo nano /boot/config.txt`
+4. comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
+5. uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
+6. Power down Pwnagotchi
+7. Connect to your computer via USB cable (data port, not power)
 
 ## My 'gotchi deauths even when the "enable_deauth" plugin is turned off
 This usually happens with _new_ sessions; the 'gotchi just seems to "forget" what the enable/disable state was when you power it off. Simple fix:
