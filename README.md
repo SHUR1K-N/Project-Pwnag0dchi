@@ -129,7 +129,7 @@ To FTP into your Pwnagotchi as a root user, you'll first need to initialize the 
    > NOTE: `sshd_config`, not `ssh_config`
 6. Change the `PermitRootLogin prohibit-password` line to `PermitRootLogin yes` and uncomment the line if it's commented (remove the `#` from the start of the line)
 7. Save and exit
-8. `service ssh restart`
+8. `sudo service ssh restart`
 
 Tutorial: https://youtube.com/watch?v=6f7PB3bgaxQ
 
