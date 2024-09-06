@@ -28,6 +28,9 @@ class DisplayPassword(plugins.Plugin):
         if ui.is_waveshare_v2():
             h_pos = (0, 95)
             v_pos = (180, 61)
+        elif ui.is_waveshare_v4():
+            h_pos = (0, 95)
+            v_pos = (180, 61)
         elif ui.is_waveshare_v3():
             h_pos = (0, 95)
             v_pos = (180, 61)  
