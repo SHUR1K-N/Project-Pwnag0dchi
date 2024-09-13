@@ -205,7 +205,7 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 You'll need to disable the external Wi-Fi adapter to connect your Pwnagotchi to your computer via the data port.
 
 1. Connect Pwnagotchi via Bluetooth tethering (power port, not data)
-2. SSH into your Pwnagotchi
+2. SSH into your Pwnagotchi (using Termux, etc.)
 3. `sudo nano /boot/config.txt`
 4. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
 5. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
