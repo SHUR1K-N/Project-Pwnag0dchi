@@ -108,6 +108,6 @@ class enable_deauth(plugins.Plugin):
     def on_ui_update(self, ui):
         # update those elements
         try:
-            ui.set('deauth_count')
+            ui.set('deauth_count', '')
         except Exception as err:
             logging.info("enable deauth ui error: %s" % repr(err))
