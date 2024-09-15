@@ -198,14 +198,13 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 3. Right-click your primary ethernet (Internet) > Properties > "Sharing" tab > uncheck both boxes > OK
 4. Right-click your Pwnagotchi's RNDIS > Properties > IPv4 configuration > re-add static IP manually (10.0.0.1, 255.255.255.0, 10.0.0.1, 8.8.8.8) > OK
 5. Right-click your main ethernet > Properties > "Sharing" tab > check both boxes + select sharing for your Pwnagotchi's RNDIS > OK
-6. Reconnect Pwnagotchi (data port, not power)
-7. Test Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
+6. No need to restart anything. Verify Internet connectivity using `ping google.com` via SSH
 
 ## Cannot connect my 'gotchi to my computer since switching to external adapter
 You'll need to disable the external Wi-Fi adapter to connect your Pwnagotchi to your computer via the data port.
 
 1. Connect Pwnagotchi via Bluetooth tethering (power port, not data)
-2. SSH into your Pwnagotchi (using Termux, etc.)
+2. SSH into your Pwnagotchi (using an app like Termux)
 3. `sudo nano /boot/config.txt`
 4. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
 5. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
