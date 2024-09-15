@@ -1,5 +1,5 @@
 # Project Pwnag0dchi
-These are the slightly customized plugins I use along with their configurations. Complete Pwnagotchi guide + some common troubleshooting steps included.
+These are the customized plugins I use along with their configurations as seen on my socials and YouTube videos. You'll also find a complete Pwnagotchi build guide + some common troubleshooting here.
 
 I'll keep updating this as much as possible, and you can share suggestions or potential corrections via opening up an Issue.
 
