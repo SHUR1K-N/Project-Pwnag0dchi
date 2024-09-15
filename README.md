@@ -123,7 +123,7 @@ To FTP into your Pwnagotchi as a root user, you'll first need to initialize the 
 
 0. SSH into your Pwny as the pi user (as usual)
 1. `sudo passwd root`
-2. Enter *pi* user's password (raspberry)
+2. Enter *pi* user's password if asked (raspberry)
 3. Enter a new password for *root* user
 4. Save and exit. You'll now have a root user. Time to enable root FTP logins
 5. `sudo nano /etc/ssh/sshd_config`
