@@ -163,7 +163,7 @@ The `better_quickdic` plugin is responsible for this. Just add your **small** cu
 >
 > NOTE: If a handshake is cracked using this plugin, it will NOT show on the Pwnagotchi screen (even with `display-password` enabled). You'll have to manually check the `/home/pi/handshakes` directory for any files that end in `.pcap.cracked`. If you have tons of handshakes there, you can use `ls /home/pi/handshakes/ | grep crack` to quickly filter out only the ones cracked
 
-You can use a simple lil' wordlist like the one from this GitHub repo ("Wordlists" directory). I created the wordlist based on the most common non-complex and default passwords I found during my tests. This could be different in your case due to your region/language/awareness/requirements/defaults ― so it's always better to use multiple, small, customized wordlists.
+You can use a simple lil' wordlist like the one from this GitHub repo ("Wordlists" directory). I created the wordlist based on the most common non-complex and default passwords I found during my tests. This could be different in your case due to your region / language / awareness / requirements / defaults ― so it's always better to use multiple, small, customized wordlists.
 
 # Bluetooth-Tethering (short & crisp)
 Tutorial: https://www.youtube.com/watch?v=cnmrKCBzDRU
