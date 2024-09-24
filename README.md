@@ -50,7 +50,6 @@ I'll keep updating this as much as possible, and you can share suggestions or po
   	* Internet connection/sharing status
   	* Current interface's IP address (helps with connecting via SSH / web UI)
 * More stuff I may be forgetting
-<img src="https://github.com/SHUR1K-N/Project-Pwnag0dchi/assets/42811989/f375ba99-673f-4b7c-b8ad-d2f8dd662270" width="700">
 
 ## Sick Feature Showcase & Tutorial Video
 
