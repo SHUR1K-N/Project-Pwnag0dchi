@@ -30,6 +30,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	- [Deauths even when "enable_deauth" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-deauths-even-when-the-enable_deauth-plugin-is-turned-off)
 	- [Associations even when "enable_assoc" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-does-associations-even-when-the-enable_assoc-plugin-is-turned-off)
  	- [I got the tri-color variant of the Waveshare screen, and it sucks. Now what?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-got-the-tri-color-variant-of-the-waveshare-screen-and-it-sucks-now-what)
+  	- []()
 
 ---
 # Features
@@ -229,3 +230,9 @@ This usually happens with _new_ sessions; the 'gotchi just seems to "forget" wha
 3. Look for `ui.fps`, and change the value to `1` or `2`
 4. Scroll to the top, hit "Save and restart"
 5. Screen should work relatively much better now
+
+## I don't like the dark mode UI, how do I make the UI white like default?
+1. Connect Pwnagotchi (data port, not power)
+2. Web UI > Plugins > web-cfg
+3. Look for `ui.invert`, and change the value to `True`
+4. Scroll to the top, hit "Save and restart"
