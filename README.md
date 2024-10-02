@@ -30,7 +30,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	- [Deauths even when "enable_deauth" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-deauths-even-when-the-enable_deauth-plugin-is-turned-off)
 	- [Associations even when "enable_assoc" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-does-associations-even-when-the-enable_assoc-plugin-is-turned-off)
  	- [I got the tri-color variant of the Waveshare screen, and it sucks. Now what?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-got-the-tri-color-variant-of-the-waveshare-screen-and-it-sucks-now-what)
-  	- []()
+  	- [I don't like dark mode, how do I make the UI white like default?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-dont-like-the-dark-mode-ui-how-do-i-make-the-ui-white-like-default)
 
 ---
 # Features
