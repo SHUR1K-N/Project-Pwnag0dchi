@@ -97,16 +97,16 @@ Then make the following additions / changes:
  * Micro-SD card — 16GBs best, must be "UHS-I"
 
 ## Installation
-0. Attach the Waveshare display to the Pi Zero (hardware part done!)
-1. Download a Pwnagotchi image file of your choice (jayofelony, etc.)
-2. Download / Install [Balena Etcher](https://etcher.balena.io/#download-etcher)
-3. Insert your Pwnagotchi's micro-SD into a card-reader, and into your computer
-4. Open Balena Etcher
-5. Select the downloaded Pwnagotchi image file
-6. Also carefully select the inserted micro-SD card
-7. Flash!
-8. After flashing completes, insert the micro-SD card into your Pwnagotchi and power it on
-9. **On the first boot, your Pwangotchi will need some time to initialize (anywhere from 2 to even 30 minutes). During this initialization period, do not panic if you see nothing on the display or a `"Generating keys, do not turn off..."` message. Once this process is complete, your Pwangotchi will restart by itself and be ready to use**
+1. Attach the Waveshare display to the Pi Zero (hardware part done!)
+2. Download a Pwnagotchi image file of your choice (jayofelony, etc.)
+3. Download / Install [Balena Etcher](https://etcher.balena.io/#download-etcher)
+4. Insert your Pwnagotchi's micro-SD into a card-reader, and into your computer
+5. Open Balena Etcher
+6. Select the downloaded Pwnagotchi image file
+7. Also carefully select the inserted micro-SD card
+8. Flash!
+9. After flashing completes, insert the micro-SD card into your Pwnagotchi and power it on
+10. **On the first boot, your Pwangotchi will need some time to initialize (anywhere from 2 to even 30 minutes). During this initialization period, do not panic if you see nothing on the display or a `"Generating keys, do not turn off..."` message. Once this process is complete, your Pwangotchi will restart by itself and be ready to use**
     > NOTE: This only applies to the first boot. You will not have to wait for more than ~2-3 minutes for any future boot-ups
 11. IT'S ALIIIIIVE!
 
@@ -121,34 +121,34 @@ Tutorial: https://youtu.be/7nj5Euo5Bng?t=135
 ## Getting your Pwnagotchi to be accessible via FTP
 To FTP into your Pwnagotchi as a root user, you'll first need to initialize the root user account and also enable root FTP logins:
 
-0. SSH into your Pwny as the pi user (as usual)
-1. `sudo passwd root`
-2. Enter *pi* user's password if asked (raspberry)
-3. Enter a new password for *root* user
-4. Save and exit. You'll now have a root user. Time to enable root FTP logins
-5. `sudo nano /etc/ssh/sshd_config`
+1. SSH into your Pwny as the pi user (as usual)
+2. `sudo passwd root`
+3. Enter *pi* user's password if asked (raspberry)
+4. Enter a new password for *root* user
+5. Save and exit. You'll now have a root user. Time to enable root FTP logins
+6. `sudo nano /etc/ssh/sshd_config`
    > NOTE: `sshd_config`, not `ssh_config`
-6. Change the `PermitRootLogin prohibit-password` line to `PermitRootLogin yes` and uncomment the line if it's commented (remove the `#` from the start of the line)
-7. Save and exit
-8. `sudo service ssh restart`
+7. Change the `PermitRootLogin prohibit-password` line to `PermitRootLogin yes` and uncomment the line if it's commented (remove the `#` from the start of the line)
+8. Save and exit
+9. `sudo service ssh restart`
 
 Tutorial: https://youtube.com/watch?v=6f7PB3bgaxQ
 
 
 ## Setting Up Internet-Sharing (Internet access for Pwnagotchi)
-0. Connect your Pwnagotchi (data port, not power)
-1. Download `win_connection_share.ps1` from this GitHub repo ("Internet Sharing" directory)
-2. Open PowerShell as an administrator (right-click > "Run as administrator")
-3. `cd .\Downloads\`
-4. `.\win_connection_share.ps1 -SetPwnagotchiSubnet`
-5. Reboot Windows machine
-6. `.\win_connection_share.ps1 -EnableInternetConnectionSharing`
-7. Start > type "network" > "View network connections"
-8. Right-click your Pwnagotchi's RNDIS > Properties > IPv4 configuration > re-add static IP manually (10.0.0.1, 255.255.255.0, 10.0.0.1, 8.8.8.8)
-9. Right-click your main ethernet > Properties > "Sharing" tab > check both boxes + select sharing for your Pwnagotchi's RNDIS > OK
-10. Reconnect Pwnagotchi (data port, not power)
-11. Command Prompt > `ssh pi@10.0.0.2` (password = `raspberry`)
-12. Confirm Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
+1. Connect your Pwnagotchi (data port, not power)
+2. Download `win_connection_share.ps1` from this GitHub repo ("Internet Sharing" directory)
+3. Open PowerShell as an administrator (right-click > "Run as administrator")
+4. `cd .\Downloads\`
+5. `.\win_connection_share.ps1 -SetPwnagotchiSubnet`
+6. Reboot Windows machine
+7. `.\win_connection_share.ps1 -EnableInternetConnectionSharing`
+8. Start > type "network" > "View network connections"
+9. Right-click your Pwnagotchi's RNDIS > Properties > IPv4 configuration > re-add static IP manually (10.0.0.1, 255.255.255.0, 10.0.0.1, 8.8.8.8)
+10. Right-click your main ethernet > Properties > "Sharing" tab > check both boxes + select sharing for your Pwnagotchi's RNDIS > OK
+11. Reconnect Pwnagotchi (data port, not power)
+12. Command Prompt > `ssh pi@10.0.0.2` (password = `raspberry`)
+13. Confirm Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
 
 ---
 ---
@@ -176,20 +176,20 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 > TIP: First, try the below steps and see if your adapter works with the Pwnagotchi (don't forget to reboot). If not, install the drivers manually.
 
 ## Enabling External Wi-Fi Adapter
-0. SSH into your Pwnagotchi
-1. `sudo nano /boot/config.txt`
-2. Locate the `[all]` section
-3. Uncomment `dtoverlay=disable-wifi` (remove the `#` from the start of the line)
-4. Comment out `dtoverlay=dwc2` (add a `#` at the start of the line)
-5. Reboot Pwnagotchi with Wi-Fi adapter *connected* (data port, not power)
+1. SSH into your Pwnagotchi
+2. `sudo nano /boot/config.txt`
+3. Locate the `[all]` section
+4. Uncomment `dtoverlay=disable-wifi` (remove the `#` from the start of the line)
+5. Comment out `dtoverlay=dwc2` (add a `#` at the start of the line)
+6. Reboot Pwnagotchi with Wi-Fi adapter *connected* (data port, not power)
 
 ## Disabling External Wi-Fi Adapter
-0. SSH into your Pwnagotchi
-1. `sudo nano /boot/config.txt`
-2. Locate the `[all]` section
-3. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
-4. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
-5. Reboot Pwnagotchi with Wi-Fi adapter *disconnected* (data port, not power)
+1. SSH into your Pwnagotchi
+2. `sudo nano /boot/config.txt`
+3. Locate the `[all]` section
+4. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
+5. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
+6. Reboot Pwnagotchi with Wi-Fi adapter *disconnected* (data port, not power)
 
 ---
 ---
