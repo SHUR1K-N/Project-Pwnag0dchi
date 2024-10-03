@@ -178,16 +178,18 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 ## Enabling External Wi-Fi Adapter
 0. SSH into your Pwnagotchi
 1. `sudo nano /boot/config.txt`
-2. Uncomment `dtoverlay=disable-wifi` (remove the `#` from the start of the line)
-3. Comment out `dtoverlay=dwc2` (add a `#` at the start of the line)
-4. Reboot Pwnagotchi with Wi-Fi adapter *connected* (data port, not power)
+2. Locate the `[all]` section
+3. Uncomment `dtoverlay=disable-wifi` (remove the `#` from the start of the line)
+4. Comment out `dtoverlay=dwc2` (add a `#` at the start of the line)
+5. Reboot Pwnagotchi with Wi-Fi adapter *connected* (data port, not power)
 
 ## Disabling External Wi-Fi Adapter
 0. SSH into your Pwnagotchi
 1. `sudo nano /boot/config.txt`
-2. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
-3. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
-4. Reboot Pwnagotchi with Wi-Fi adapter *disconnected* (data port, not power)
+2. Locate the `[all]` section
+3. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
+4. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
+5. Reboot Pwnagotchi with Wi-Fi adapter *disconnected* (data port, not power)
 
 ---
 ---
@@ -208,10 +210,11 @@ You'll need to disable the external Wi-Fi adapter to connect your Pwnagotchi to 
 1. Connect Pwnagotchi via Bluetooth tethering (power port, not data)
 2. SSH into your Pwnagotchi (using an app like Termux)
 3. `sudo nano /boot/config.txt`
-4. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
-5. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
-6. Power down Pwnagotchi
-7. Connect to your computer via USB cable (data port, not power)
+4. Locate the `[all]` section
+5. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
+6. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
+7. Power down Pwnagotchi
+8. Connect to your computer via USB cable (data port, not power)
 
 ## My 'gotchi deauths even when the "enable_deauth" plugin is turned off
 This usually happens with _new_ sessions; the 'gotchi just seems to "forget" what the enable/disable state was when you power it off. Simple fix:
