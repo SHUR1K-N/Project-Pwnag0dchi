@@ -229,12 +229,12 @@ This usually happens with _new_ sessions; the 'gotchi just seems to "forget" wha
 ## I got the tri-color variant of the Waveshare screen, and it sucks. Now what?
 0. First of all — told you so
 1. Connect Pwnagotchi (data port, not power)
-2. Web UI > Plugins > web-cfg
+2. Web UI > Plugins > webcfg
 3. Look for `ui.fps`, and change the value to `1` or `2`
 4. Scroll to the top, hit "Save and restart". The screen should work relatively much better now
 
 ## I don't like the dark mode UI, how do I make the UI white like default?
 1. Connect Pwnagotchi (data port, not power)
-2. Web UI > Plugins > web-cfg
+2. Web UI > Plugins > webcfg
 3. Look for `ui.invert`, and change the value to `True`
 4. Scroll to the top, hit "Save and restart"
