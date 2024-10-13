@@ -133,7 +133,7 @@ To FTP into your Pwnagotchi as a root user, you'll first need to initialize the 
 8. Save and exit
 9. `sudo service ssh restart`
 
-Tutorial: https://youtube.com/watch?v=6f7PB3bgaxQ
+Tutorial: https://www.youtube.com/watch?v=X-5jN0WjurQ&t=88s
 
 
 ## Setting Up Internet-Sharing (Internet access for Pwnagotchi)
