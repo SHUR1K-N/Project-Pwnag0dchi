@@ -16,11 +16,11 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
  	- [FTP Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ftp)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
-        - [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
-        - [Bluetooth Tethering Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp)
-        - [Using External Wi-Fi Adapters](https://github.com/SHUR1K-N/Project-Pwnag0dchi#using-external-wi-fi-adapters)
-	        - [Enabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#enabling-external-wi-fi-adapter)
-	        - [Disabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#disabling-external-wi-fi-adapter)
+- [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
+- [Bluetooth Tethering Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp)
+- [Using External Wi-Fi Adapters](https://github.com/SHUR1K-N/Project-Pwnag0dchi#using-external-wi-fi-adapters)
+     - [Enabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#enabling-external-wi-fi-adapter)
+     - [Disabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#disabling-external-wi-fi-adapter)
 
 ---
 - [Additional Customizations](https://github.com/SHUR1K-N/Project-Pwnag0dchi#additional-customizations)
