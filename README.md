@@ -23,9 +23,10 @@ I'll keep updating this as much as possible, and you can share suggestions or po
      - [Disabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#disabling-external-wi-fi-adapter)
 
 ---
+
 - [Additional Customizations](https://github.com/SHUR1K-N/Project-Pwnag0dchi#additional-customizations)
-        - [Custom Faces](https://github.com/SHUR1K-N/Project-Pwnag0dchi#custom-pwnagotchi-faces-tutorial)
-        - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
+ - [Custom Faces](https://github.com/SHUR1K-N/Project-Pwnag0dchi#custom-pwnagotchi-faces-tutorial)
+ - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
 ---
 - [Troubleshooting](https://github.com/SHUR1K-N/Project-Pwnag0dchi#troubleshooting)
 	- [Internet Sharing Not Working](https://github.com/SHUR1K-N/Project-Pwnag0dchi#internet-sharing-not-working-or-was-previously-working)
