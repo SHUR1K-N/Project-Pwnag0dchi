@@ -17,6 +17,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
  	- [FTP Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ftp)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
 ---
+- [Custom Faces](https://github.com/SHUR1K-N/Project-Pwnag0dchi#custom-pwnagotchi-faces-tutorial)
 - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
 - [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
 - [Bluetooth-Tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp)
@@ -153,6 +154,9 @@ Tutorial: https://youtube.com/watch?v=6f7PB3bgaxQ
 ---
 ---
 ---
+
+# Custom Pwnagotchi faces tutorial
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/X-5jN0WjurQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=X-5jN0WjurQ)
 
 # Massive Plugins List (names, descriptions, links, etc.)
 https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-w_A
