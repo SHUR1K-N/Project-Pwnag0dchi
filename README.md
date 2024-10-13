@@ -83,7 +83,6 @@ Then make the following additions / changes:
 
 ---
 ---
----
 
 # Pwnagotchi Noob Guide
 ## Parts To Get
@@ -190,7 +189,6 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 
 ---
 ---
----
 
 # Additional Customizations
 
@@ -200,7 +198,6 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 ## Massive Plugins List (names, descriptions, links, etc.)
 https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-w_A
 
----
 ---
 ---
 
