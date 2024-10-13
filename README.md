@@ -16,14 +16,16 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 	- [SSH / Web UI Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ssh--web-ui)
  	- [FTP Access Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#getting-your-pwnagotchi-to-be-accessible-via-ftp)
 	- [Setting Up Internet-Sharing](https://github.com/SHUR1K-N/Project-Pwnag0dchi#setting-up-internet-sharing-internet-access-for-pwnagotchi)
+        - [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
+        - [Bluetooth Tethering Setup](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp)
+        - [Using External Wi-Fi Adapters](https://github.com/SHUR1K-N/Project-Pwnag0dchi#using-external-wi-fi-adapters)
+	        - [Enabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#enabling-external-wi-fi-adapter)
+	        - [Disabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#disabling-external-wi-fi-adapter)
+
 ---
-- [Custom Faces](https://github.com/SHUR1K-N/Project-Pwnag0dchi#custom-pwnagotchi-faces-tutorial)
-- [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
-- [Local Handshake Cracking](https://github.com/SHUR1K-N/Project-Pwnag0dchi#local-handshake-cracking-within-the-pwnagotchi-itself-without-internet--wpa-sec)
-- [Bluetooth-Tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp)
-- [Using External Wi-Fi Adapters](https://github.com/SHUR1K-N/Project-Pwnag0dchi#using-external-wi-fi-adapters)
-	- [Enabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#enabling-external-wi-fi-adapter)
-	- [Disabling External Wi-Fi Adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#disabling-external-wi-fi-adapter)
+- [Additional Customizations](https://github.com/SHUR1K-N/Project-Pwnag0dchi#additional-customizations)
+        - [Custom Faces](https://github.com/SHUR1K-N/Project-Pwnag0dchi#custom-pwnagotchi-faces-tutorial)
+        - [Massive Plugins List](https://github.com/SHUR1K-N/Project-Pwnag0dchi#massive-plugins-list-names-descriptions-links-etc)
 ---
 - [Troubleshooting](https://github.com/SHUR1K-N/Project-Pwnag0dchi#troubleshooting)
 	- [Internet Sharing Not Working](https://github.com/SHUR1K-N/Project-Pwnag0dchi#internet-sharing-not-working-or-was-previously-working)
@@ -151,17 +153,7 @@ Tutorial: https://www.youtube.com/watch?v=X-5jN0WjurQ&t=88s
 12. Command Prompt > `ssh pi@10.0.0.2` (password = `raspberry`)
 13. Confirm Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
 
----
----
----
-
-# Custom Pwnagotchi faces tutorial
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/X-5jN0WjurQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=X-5jN0WjurQ)
-
-# Massive Plugins List (names, descriptions, links, etc.)
-https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-w_A
-
-# Local Handshake Cracking (within the Pwnagotchi itself, without Internet / WPA-sec)
+## Local Handshake Cracking (within the Pwnagotchi itself, without Internet / WPA-sec)
 The `better_quickdic` plugin is responsible for this. Just add your **small** custom wordlists to `/home/pi/wordlists/`, and an offline dictionary attack will be performed using all the wordlists in this directory as soon as a valid handshake is captured
 > NOTE: Disable / Remove the `aircrackonly` & `hashie` / `hashieclean` plugins for this to be most effective. I've found in some of my testing that these plugins sometimes get rid of even valid handshakes before `better_quickdic` could start cracking them
 >
@@ -169,17 +161,17 @@ The `better_quickdic` plugin is responsible for this. Just add your **small** cu
 
 You can use a simple lil' wordlist like the one from this GitHub repo ("Wordlists" directory). I created the wordlist based on the most common non-complex and default passwords I found during my tests. This could be different in your case due to your region / language / awareness / requirements / defaults ― so it's always better to use multiple, small, customized wordlists.
 
-# Bluetooth-Tethering (short & crisp)
+## Bluetooth-Tethering (short & crisp)
 Tutorial: https://www.youtube.com/watch?v=cnmrKCBzDRU
 
-# Using External Wi-Fi Adapters
+## Using External Wi-Fi Adapters
 You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant increase in range, or for 5GHz support, or both.
 
 > NOTE: This would completely depend on your external adapter's chipset. Many chipsets are readily supported by the underlying Linux OS, but others would require you to install the chipset's driver manually via SSH.
 
 > TIP: First, try the below steps and see if your adapter works with the Pwnagotchi (don't forget to reboot). If not, install the drivers manually.
 
-## Enabling External Wi-Fi Adapter
+### Enabling External Wi-Fi Adapter
 1. SSH into your Pwnagotchi
 2. `sudo nano /boot/config.txt`
 3. Locate the `[all]` section
@@ -187,13 +179,25 @@ You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant inc
 5. Comment out `dtoverlay=dwc2` (add a `#` at the start of the line)
 6. Reboot Pwnagotchi with Wi-Fi adapter *connected* (data port, not power)
 
-## Disabling External Wi-Fi Adapter
+### Disabling External Wi-Fi Adapter
 1. SSH into your Pwnagotchi
 2. `sudo nano /boot/config.txt`
 3. Locate the `[all]` section
 4. Comment out `dtoverlay=disable-wifi` (add a `#` at the start of the line)
 5. Uncomment `dtoverlay=dwc2` (remove the `#` from the start of the line)
 6. Reboot Pwnagotchi with Wi-Fi adapter *disconnected* (data port, not power)
+
+---
+---
+---
+
+# Additional Customizations
+
+## Custom Pwnagotchi faces tutorial
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/X-5jN0WjurQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=X-5jN0WjurQ)
+
+## Massive Plugins List (names, descriptions, links, etc.)
+https://docs.google.com/spreadsheets/d/1os8TRM3Pc9Tpkqzwu548QsDFHNXGuRBiRDYEsF3-w_A
 
 ---
 ---
