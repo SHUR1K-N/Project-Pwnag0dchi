@@ -4,11 +4,12 @@ These are the customized plugins I use along with their configurations as seen o
 I'll keep updating this as much as possible, and you can share suggestions or potential corrections via opening up an Issue.
 
 ## Table of Contents
-- [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
-- [Showcase & Tutorial Video](https://github.com/SHUR1K-N/Project-Pwnag0dchi#sick-feature-showcase--tutorial-video)
-- [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi#installing-plugins--applying-configurations)
-	- [Login Credentials (Web UI)](https://github.com/SHUR1K-N/Project-Pwnag0dchi#login-credentials-web-ui) 
- 	- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
+- [Project Pwnag0dchi Modifications](https://github.com/SHUR1K-N/Project-Pwnag0dchi#Project-Pwnag0dchi-modifications)
+	- [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
+	- [Showcase & Tutorial Video](https://github.com/SHUR1K-N/Project-Pwnag0dchi#sick-feature-showcase--tutorial-video)
+	- [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi#installing-plugins--applying-configurations)
+		- [Login Credentials (Web UI)](https://github.com/SHUR1K-N/Project-Pwnag0dchi#login-credentials-web-ui) 
+ 		- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
 ---
 - [Pwnagotchi Noob Guide](https://github.com/SHUR1K-N/Project-Pwnag0dchi#pwnagotchi-noob-guide)
     - [Parts To Get](https://github.com/SHUR1K-N/Project-Pwnag0dchi#parts-to-get)
@@ -37,7 +38,8 @@ I'll keep updating this as much as possible, and you can share suggestions or po
   	- [I don't like dark mode, how do I make the UI white like default?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-dont-like-the-dark-mode-ui-how-do-i-make-the-ui-white-like-default)
 
 ---
-# Features
+# Project Pwnag0dchi Modifications
+## Features
 * On-device dictionary attacks automatically upon finding handshakes (against customized, smaller wordlists)
 * Individual toggles for association and deauthentication attacks to choose 1 of 3 attack approaches:
 	* Fully aggressive (association + deauthentication attacks)
@@ -60,15 +62,15 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rNAYWvSMP6o/maxresdefault.jpg)](https://www.youtube.com/watch?v=rNAYWvSMP6o)
 
-# Installing Plugins & Applying Configurations
+## Installing Plugins & Applying Configurations
 1. Copy the files from the ″Plugins″ directory of this GitHub repo to `/usr/local/share/pwnagotchi/custom-plugins/`
 2. Copy the files from the ″Configurations″ directory of this GitHub repo to `/etc/pwnagotchi/`
 3. Apply all changes by restarting your Pwnagotchi
 
-## Login Credentials (Web UI)
+### Login Credentials (Web UI)
 `changeme:changeme`
 
-## Initial settings to be changed
+### Initial settings to be changed
 Via web UI: Plugins > webcfg
 
 Via `/etc/pwnagotchi/config.toml`
