@@ -7,7 +7,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 - [Project Pwnag0dchi Modifications](https://github.com/SHUR1K-N/Project-Pwnag0dchi#Project-Pwnag0dchi-modifications)
 	- [Features](https://github.com/SHUR1K-N/Project-Pwnag0dchi#features)
 	- [Showcase & Tutorial Video](https://github.com/SHUR1K-N/Project-Pwnag0dchi#sick-feature-showcase--tutorial-video)
-	- [Installing Plugins & Applying Configurations](https://github.com/SHUR1K-N/Project-Pwnag0dchi#installing-plugins--applying-configurations)
+	- [Installing Project Pwnag0dchi](https://github.com/SHUR1K-N/Project-Pwnag0dchi#installing-project-pwnag0dchi)
 		- [Login Credentials (Web UI)](https://github.com/SHUR1K-N/Project-Pwnag0dchi#login-credentials-web-ui) 
  		- [Initial settings to be changed](https://github.com/SHUR1K-N/Project-Pwnag0dchi#initial-settings-to-be-changed)
 ---
@@ -62,7 +62,7 @@ I'll keep updating this as much as possible, and you can share suggestions or po
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/rNAYWvSMP6o/maxresdefault.jpg)](https://www.youtube.com/watch?v=rNAYWvSMP6o)
 
-## Installing Plugins & Applying Configurations
+## Installing Project Pwnag0dchi
 1. Copy the files from the ″Plugins″ directory of this GitHub repo to `/usr/local/share/pwnagotchi/custom-plugins/`
 2. Copy the files from the ″Configurations″ directory of this GitHub repo to `/etc/pwnagotchi/`
 3. Apply all changes by restarting your Pwnagotchi
