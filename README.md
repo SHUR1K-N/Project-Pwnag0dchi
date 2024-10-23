@@ -1,7 +1,9 @@
 # Project Pwnag0dchi
-These are the customized plugins I use along with their configurations as seen on my socials and YouTube videos. You'll also find a complete Pwnagotchi build guide + some common troubleshooting here.
+This project consists of the customized plugins & configurations I use. Follow this guide, and your Pwnagotchi will look *exactly* as seen on my socials & YouTube videos in ~5mins tops.
 
-I'll keep updating this as much as possible, and you can share suggestions or potential corrections via opening up an Issue.
+You'll also find a complete Pwnagotchi noob build guide + some common troubleshooting methods here.
+
+*I'll keep updating this as much as possible. If you have a suggestion or run into problems using this project, open up a GitHub Issue and we can talk about it.*
 
 ## Table of Contents
 - [Project Pwnag0dchi Modifications](https://github.com/SHUR1K-N/Project-Pwnag0dchi#Project-Pwnag0dchi-modifications)
