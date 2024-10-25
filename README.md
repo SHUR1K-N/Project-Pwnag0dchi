@@ -171,11 +171,9 @@ Tutorial: https://www.youtube.com/watch?v=cnmrKCBzDRU
 ## Using External Wi-Fi Adapters
 You can attach an external Wi-Fi adapter to the Pwnagotchi for a significant increase in range, or for 5GHz support, or both.
 
-> NOTE: You will *NOT* be able to SSH into your Pwnagotchi via USB once the external Wi-Fi adapter is enabled because the data USB port gets allotted to the external Wi-Fi adapter. Hence, it is highly recommended to first set up and confirm [Bluetooth-tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp) is working so you can access your Pwnagotchi via web UI or SSH *without* the need of a USB cable.
+> NOTE: You will *NOT* be able to SSH into your Pwnagotchi via USB when the external Wi-Fi adapter is enabled because the data USB port gets allotted to the external Wi-Fi adapter. Hence, it is highly recommended to first set up and confirm [Bluetooth-tethering](https://github.com/SHUR1K-N/Project-Pwnag0dchi#bluetooth-tethering-short--crisp) is working so you can access your Pwnagotchi via web UI or SSH *without* the need of a USB cable. When the external Wi-Fi adapter is disabled, you can access your Pwnagotchi via a USB cable as normal.
 
-> NOTE: This would completely depend on your external adapter's chipset. Many chipsets are readily supported by the underlying Linux OS, but others would require you to install the chipset's driver manually via SSH.
-
-> TIP: First, try the below steps and see if your adapter works with the Pwnagotchi (don't forget to reboot). If not, install the drivers manually.
+> NOTE: Compatibility of external Wi-Fi adapters would completely depend on your adapter's chipset. Many chipsets are readily supported by the underlying Linux OS, but others would require you to install the chipset's driver manually via SSH. First, try the below steps and see if your adapter works with the Pwnagotchi (don't forget to reboot). If not, install the drivers manually.
 
 ### Enabling External Wi-Fi Adapter
 1. SSH into your Pwnagotchi
