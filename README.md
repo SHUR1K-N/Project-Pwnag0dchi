@@ -33,7 +33,7 @@ You'll also find a complete Pwnagotchi noob build guide + some common troublesho
 ---
 - [Troubleshooting](https://github.com/SHUR1K-N/Project-Pwnag0dchi#troubleshooting)
 	- [Internet Sharing Not Working](https://github.com/SHUR1K-N/Project-Pwnag0dchi#internet-sharing-not-working-or-was-previously-working)
- 	- [Can't connect 'gotchi to computer since switching to external adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi?tab=readme-ov-file#cannot-connect-my-gotchi-to-my-computer-since-switching-to-external-adapter)
+ 	- [Can't connect 'gotchi to computer since switching to external adapter](https://github.com/SHUR1K-N/Project-Pwnag0dchi#cannot-connect-my-gotchi-to-my-computer-since-switching-to-external-adapter)
 	- [Deauths even when "enable_deauth" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-deauths-even-when-the-enable_deauth-plugin-is-turned-off)
 	- [Associations even when "enable_assoc" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-does-associations-even-when-the-enable_assoc-plugin-is-turned-off)
  	- [I got the tri-color variant of the Waveshare screen, and it sucks. Now what?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-got-the-tri-color-variant-of-the-waveshare-screen-and-it-sucks-now-what)
