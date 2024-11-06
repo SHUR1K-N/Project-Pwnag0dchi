@@ -157,6 +157,12 @@ Tutorial: https://www.youtube.com/watch?v=X-5jN0WjurQ&t=88s
 12. Command Prompt > `ssh pi@10.0.0.2` (password = `raspberry`)
 13. Confirm Internet connectivity after Pwnagotchi initializes completely using `ping google.com`
 
+#### Still no Internet?
+1. `sudo chattr +i /etc/resolv.conf`
+2. `sudo nano /etc/resolv.conf`
+3. The content of this file should be only this:
+   `nameserver    8.8.8.8`
+
 ## Local Handshake Cracking (within the Pwnagotchi itself, without Internet / WPA-sec)
 The `better_quickdic` plugin is responsible for this. Just add your **small** custom wordlists to `/home/pi/wordlists/`, and an offline dictionary attack will be performed using all the wordlists in this directory as soon as a valid handshake is captured
 > NOTE: Disable / Remove the `aircrackonly` & `hashie` / `hashieclean` plugins for this to be most effective. I've found in some of my testing that these plugins sometimes get rid of even valid handshakes before `better_quickdic` could start cracking them
