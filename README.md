@@ -160,7 +160,7 @@ Tutorial: https://www.youtube.com/watch?v=X-5jN0WjurQ&t=88s
 #### Still no Internet?
 1. `sudo chattr +i /etc/resolv.conf`
 2. `sudo nano /etc/resolv.conf`
-3. The content of this file should be only this:
+3. The content of this file should only be this single line:
    `nameserver    8.8.8.8`
 
 ## Local Handshake Cracking (within the Pwnagotchi itself, without Internet / WPA-sec)
