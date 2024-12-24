@@ -113,7 +113,7 @@ Then make the following additions / changes:
 7. Also carefully select the inserted micro-SD card
 8. Flash!
 9. After flashing completes, insert the micro-SD card into your Pwnagotchi and power it on
-10. **On the first boot, your Pwangotchi will need some time to initialize (anywhere from 2 to even 30 minutes). During this initialization period, do not panic if you see nothing on the display or a `"Generating keys, do not turn off..."` message. Once this process is complete, your Pwangotchi will restart by itself and be ready to use**
+10. **On the first boot, your Pwnagotchi will need some time to initialize (anywhere from 2 to even 30 minutes). During this initialization period, do not panic if you see nothing on the display or a `"Generating keys, do not turn off..."` message. Once this process is complete, your Pwnagotchi will restart by itself and be ready to use**
     > NOTE: This only applies to the first boot. You will not have to wait for more than ~2-3 minutes for any future boot-ups
 11. IT'S ALIIIIIVE!
 
