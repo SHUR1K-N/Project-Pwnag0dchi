@@ -38,6 +38,7 @@ You'll also find a complete Pwnagotchi noob build guide + some common troublesho
 	- [Associations even when "enable_assoc" plugin disabled](https://github.com/SHUR1K-N/Project-Pwnag0dchi#my-gotchi-does-associations-even-when-the-enable_assoc-plugin-is-turned-off)
  	- [I got the tri-color variant of the Waveshare screen, and it sucks. Now what?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-got-the-tri-color-variant-of-the-waveshare-screen-and-it-sucks-now-what)
   	- [I don't like dark mode, how do I make the UI white like default?](https://github.com/SHUR1K-N/Project-Pwnag0dchi#i-dont-like-the-dark-mode-ui-how-do-i-make-the-ui-white-like-default)
+  	- [memtemp-plus elements get cut-off](https://github.com/SHUR1K-N/Project-Pwnag0dchi#memtemp-plus-elements-get-cut-off)
 
 ---
 # Project Pwnag0dchi Modifications
@@ -254,3 +255,11 @@ This usually happens with _new_ sessions; the 'gotchi just seems to "forget" wha
 2. Web UI > Plugins > webcfg
 3. Look for `ui.invert`, and change the value to `True`
 4. Scroll to the top, hit "Save and Restart"
+
+## memtemp-plus elements get cut-off
+1. Either change to the following values in the tweak_view plugin or add them in `/etc/pwnagotchi/tweak_view.json`:
+```
+"VSS.memtemp_header.xy": "145,82",
+"VSS.memtemp_data.xy": "145,95",
+"VSS.Lv.xy": "151,72"
+```
