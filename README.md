@@ -105,7 +105,7 @@ Then make the following additions / changes:
 
 ## Installation
 1. Attach the Waveshare display to the Pi Zero (hardware part done!)
-2. Download a Pwnagotchi image file of your choice (jayofelony, etc.)
+2. Download a [jayofelony's](https://github.com/jayofelony/pwnagotchi) v2.8.9 release image (thoroughly tested) or v2.9.3 release image (works as far as tested)
 3. Download / Install [Balena Etcher](https://etcher.balena.io/#download-etcher)
 4. Insert your Pwnagotchi's micro-SD into a card-reader, and into your computer
 5. Open Balena Etcher
