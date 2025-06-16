@@ -109,4 +109,4 @@ class enable_assoc(plugins.Plugin):
         # called when the ui is updated
     def on_ui_update(self, ui):
         # update those elements
-        ui.set('assoc_count')
+        ui.set('assoc_count', "%d" % (self._count))
