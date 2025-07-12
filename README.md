@@ -91,14 +91,14 @@ Then make the following additions / changes:
 
 # Pwnagotchi Noob Guide
 ## Parts To Get
-* [Waveshare 2.13 inch e-Ink display](https://www.waveshare.com/2.13inch-e-paper-hat.htm)
+* Waveshare 2.13 inch e-Ink display ([Amazon](https://amzn.to/44twiLr) | [Waveshare](https://www.waveshare.com/2.13inch-e-paper-hat.htm))
 	* Versions 3 & 4 work best. This is denoted by a small circular sticker on the board ([like this](https://www.reddit.com/r/pwnagotchi/comments/dkwl0f/visual_differences_between_version_2_and_version/))
  	* Ignore the "Rev2.1" that's printed on the board; that has nothing to do with the version
   	* Do NOT get the tri-color variant with black/white/red (variant "B"). Get only the black/white version. Both look pretty much identical and cost the same, so it's easy to purchase the wrong one
 <img src="https://github.com/SHUR1K-N/Project-Pwnag0dchi/assets/42811989/94a1b13c-7370-4581-90b6-8bf47cfec131" width="800">
 
-* [Raspberry Pi Zero W](https://www.raspberrypi.com/products/raspberry-pi-zero-w/) (soldering required)
-* OR [Raspberry Pi Zero WH](https://www.adafruit.com/product/3708) (no soldering required)
+* Raspberry Pi Zero W - soldering required ([Amazon](https://amzn.to/4nHtaD0) | [Rapsberry Pi](https://www.raspberrypi.com/products/raspberry-pi-zero-w/))
+* OR Raspberry Pi Zero WH - no soldering required ([Amazon](https://amzn.to/44rKu7G) | [Adafruit](https://www.adafruit.com/product/3708))
 	* This is the same board with pre-soldered pins (The `H` in `WH` is for "Headers")
  	* The `WH` variant may be a little more difficult to find than `W`
 
