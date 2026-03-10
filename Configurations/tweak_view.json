@@ -1,5 +1,4 @@
 {
-    "VSS.aps.label": "APs",
     "VSS.status.font": "Small",
     "VSS.Lv.label_font": "Small",
     "VSS.Lv.text_font": "Small",
@@ -7,5 +6,25 @@
     "VSS.Exp.text_font": "Small",
     "VSS.Exp.label_spacing": 1,
     "VSS.Lv.label_spacing": 3,
-    "VSS.aps.xy": "36,0"
+    "VSS.shakes.xy": "0,0",
+    "VSS.uptime.xy": "187,0",
+    "VSS.channel.xy": "0,109",
+    "VSS.channel.label_font": "Small",
+    "VSS.channel.text_font": "Small",
+    "VSS.channel.label_spacing": 1,
+    "VSS.aps.xy": "38,109",
+    "VSS.aps.label": "AP",
+    "VSS.aps.label_font": "Small",
+    "VSS.aps.text_font": "Small",
+    "VSS.aps.label_spacing": 1,
+    "VSS.connection_status.xy": "103,109",
+    "VSS.connection_status.font": "Small",
+    "VSS.bluetooth.xy": "138,109",
+    "VSS.bluetooth.font": "Small",
+    "VSS.bat.xy": "170,109",
+    "VSS.bat.label_font": "Small",
+    "VSS.bat.text_font": "Small",
+    "VSS.bat.label_spacing": 1,
+    "VSS.mode.xy": "226,109",
+    "VSS.mode.font": "Small"
 }
