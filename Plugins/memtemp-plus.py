@@ -92,6 +92,9 @@ class MemTempPlus(plugins.Plugin):
             if ui.is_waveshare_v2() or ui.is_waveshare_v3():
                 v_pos = (197, 70)
                 h_pos = (175, 85)
+            elif ui.is_waveshare_v4():
+                v_pos = (197, 70)
+                h_pos = (168, 85)
             else:
                 v_pos = (175, 50)
                 h_pos = (155, 60)
